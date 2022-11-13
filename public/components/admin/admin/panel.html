@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Untitled</title>
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap/css/bootstrap.min.css?h=f1a8fe9e98944b9d682ec5c3efac8f17"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/styles.min.css?h=665c1956146a0783e454d6f1213e096b"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"
+    />
+    <style>
+      #row-admin{
+        display: none;
+      }
+      #login-form{
+        width: 50%;
+        display: block;
+        margin: 30px auto 30px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start: Data Table with Search Sort Filter and Zoom using  -->
+    <div class="container">
+      <!-- Start: TableSorter -->
+      <div class="card" id="TableSorterCard">
+        <div class="row table-topper align-items-center" >
+          <div class="col-4 text-start" style="margin: 0px; padding: 5px 15px" style="display: flex; justify-content: space-between; width: 100%;">
+            <button
+            id="logout-button"
+              class="btn btn-primary btn-sm reset"
+              type="button"
+              style="padding: 5px; margin: 2px ; background-color: red; border: 1px solid red;"
+            >
+              Log Out</button
+            >
+            <button
+            id="admin-button"
+              class="btn btn-primary btn-sm reset"
+              type="button"
+              style="padding: 5px; margin: 2px ; "
+            >
+              Add Admin</button
+            >
+          </div>
+        </div>
+        <div class="row" id="table-area">
+          <div class="col-12">
+            <div>
+              <table class="table table tablesorter" id="ipi-table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th>Name</th>
+                    <th class="sorter-false">E-Mail</th>
+                    <th class="filter-false">Phone</th>
+                    <th class="filter-false sorter-false">
+                      Text
+                    </th>
+                  </tr>
+                </thead>
+                <tbody id="add-data">
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="row-admin">
+          <form id="login-form">
+            <!-- Start: Email -->
+            <div class="form-group mb-3">
+              <label class="form-label text-secondary">User Name</label
+              ><input
+                class="form-control"
+                type="text"
+                required=""
+                inputmode="text"
+              />
+            </div>
+            <!-- End: Email --><!-- Start: Password -->
+            <div class="form-group mb-3">
+              <label class="form-label text-secondary">Password</label
+              ><input class="form-control" type="password" required="" />
+            </div>
+            <!-- End: Password --><!-- Start: Submit --><button
+              class="btn btn-info mt-2"
+              type="submit"
+            >
+              Insert</button
+            ><!-- End: Submit -->
+          </form>
+        </div>
+
+      </div>
+      <!-- End: TableSorter -->
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./panel.js" ></script>
+    <!-- End: Data Table with Search Sort Filter and Zoom using  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.min.js?h=5cbffdc4b27aa58ed083f95c52d57db1"></script>
+  </body>
+</html>

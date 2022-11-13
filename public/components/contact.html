@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.css" integrity="sha512-TzpAFfzjJAI0CY7w33tQEEIflTR3zB4kaQcCXcr+V4HmoQmXSMsQpX6z+c3lNC3XV0BeXQ6ZNb5X+sKeLP3cKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/fullpage.js" integrity="sha512-I15DlK8qDL0FQMl9ilYw38xMZbUSFULAWdJidRu5qEdqhC5An1EjKofGZSAPKFQoHJ8+p5D4V/21O+5bl1Asyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/206f09d006.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.11/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <form id="form-contact">
+        <div id="fullpage">
+            <div class="section">
+                <div class="section-wrapper">
+                    <div class="section-title">
+                        <i class="fa-solid fa-signature"></i><h1>Let's Start! What Is Your Full Name</h1><br><br>
+                    </div>
+                    <input type="text" name="name" id="name" /><br>
+                    <button><a href="#secondPage">Ok</a></button>
+                </div>     
+            
+            </div>
+            <div class="section">
+                <div class="section-wrapper">
+                    <div class="section-title">
+                        <i class="fa-solid fa-envelope-open-text"></i><h1>Great! What Is Your E-Mail</h1><br><br>
+                    </div>
+                    <input type="email" name="e-mail" id="eMail" /><br>
+                    <button><a href="#thirdPage">Ok</a></button>
+                </div> 
+            </div>
+            <div class="section">
+            <div class="section-wrapper">
+                <div class="section-title">
+                    <i class="fa-solid fa-phone"></i><h1>It's Ending! What Is Your Phone</h1><br><br>
+                </div>
+                <input type="phone" name="phone" id="phone" /><br>
+                <button><a href="#forthPage">Ok</a></button>
+            </div> 
+            </div>
+            <div class="section">
+            <div class="section-wrapper">
+                <div class="section-title">
+                    <i class="fa-solid fa-message-text"></i><h1>Share With Us Your Emotional</h1><br><br>
+                </div>
+                <input type="text" name="text" /><br>
+                <button type="submit">Send</button>
+                <a id="home" href="/">Home Page</a>
+            </div> 
+            </div>
+        </div>  
+    </form>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./contact.js" ></script>
+ <script>
+new fullpage('#fullpage', {
+    //options here
+    autoScrolling:true,
+    scrollHorizontally: true,
+    anchors:['firstPage', 'secondPage', 'thirdPage','forthPage']
+});
+    </script>
+</body>
+</html>
