@@ -42,8 +42,13 @@ Bu sayfa, şirketin sunduğu hizmetleri veya ürünleri detaylı bir şekilde li
 Bu projede kullanılan teknolojileri ayrıntılı olarak aşağıda listeleyebilirim:
 
 HTML5 ve CSS3: Temel yapı ve tasarım için kullanılan standart web teknolojileri.
+
 JavaScript: Web sitesinin dinamik özelliklerini sağlamak için kullanılan programlama dili.
+
 React: Kullanıcı arayüzü bileşenlerini oluşturmak ve yönetmek için popüler bir JavaScript kütüphanesi.
+
 React Router: Tek sayfa uygulaması yapısı için kullanılan, sayfa yönlendirmeleri ve gezinme işlemlerini kolaylaştıran bir React kütüphanesi.
+
 Axios: Web sitesi ile sunucu arasında HTTP istekleri göndermek ve almak için kullanılan popüler bir JavaScript kütüphanesi.
+
 Bootstrap: Hızlı ve duyarlı tasarım için kullanılan popüler CSS ve JavaScript kütüphanesi. Bootstrap, UI bileşenleri ve stil şablonları sağlar.
