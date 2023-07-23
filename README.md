@@ -1,7 +1,7 @@
 <div style="display: flex; justify-content: space-between;">
-   <img src="https://github.com/kodbutonu/company/blob/master/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-23%20214232.png" width="300"  height="210" >
-  <img src="https://github.com/kodbutonu/company/blob/master/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-23%20213248.png" width="300"  height="210" >
-  <img src="https://github.com/kodbutonu/company/blob/master/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-23%20214301.png" width="300"  height="210" >
+   <img src="https://github.com/kodbutonu/company/blob/master/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-23%20214232.png" width="250"  height="210" >
+  <img src="https://github.com/kodbutonu/company/blob/master/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-23%20213248.png" width="250"  height="210" >
+  <img src="https://github.com/kodbutonu/company/blob/master/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-07-23%20214301.png" width="250"  height="210" >
 </div>
 
 ## Başlangıç
