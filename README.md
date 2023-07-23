@@ -8,7 +8,7 @@
 Company Web Projesi
 Bu proje, Kod Butonu ekibinin bir şirket web sitesi için geliştirdiği kaynak kodları içerir. Şirket web sitesi, modern bir tasarıma sahip, kullanıcı dostu ve çeşitli cihazlarda uyumlu bir yapıya sahiptir. Aşağıda, proje hakkında daha detaylı bilgiler ve nasıl kullanılacağına dair yönergeler bulunmaktadır.
 
-Özellikler
+## Özellikler
 Responsive Tasarım: Web sitesi, masaüstü, tablet ve mobil cihazlarda mükemmel bir kullanıcı deneyimi sağlamak için responsive (uyumlu) olarak tasarlanmıştır.
 Anasayfa: Şirket hakkında genel bilgilerin ve öne çıkan hizmetlerin sunulduğu anasayfa.
 Hakkımızda Sayfası: Şirketin tarihçesi, misyonu ve vizyonu hakkında detaylı bilgilerin bulunduğu sayfa.
@@ -38,3 +38,12 @@ Bu sayfa, şirketin sunduğu hizmetleri veya ürünleri detaylı bir şekilde li
 
 7. İletişim Sayfası
 İletişim sayfası, ziyaretçilerin şirket ile iletişime geçebilecekleri bir iletişim formu veya iletişim bilgileri içerir. Kullanıcılar, şirkete mesajlarını ileterek soru sorma, destek talep etme veya iş birliği teklif etme gibi amaçlarla bu sayfayı kullanabilirler. İletişim formu, kullanıcıların iletişim bilgilerini bırakmalarını sağlayarak şirketle kolayca bağlantı kurmalarını sağlar.
+## Teknolojiler
+Bu projede kullanılan teknolojileri ayrıntılı olarak aşağıda listeleyebilirim:
+
+HTML5 ve CSS3: Temel yapı ve tasarım için kullanılan standart web teknolojileri.
+JavaScript: Web sitesinin dinamik özelliklerini sağlamak için kullanılan programlama dili.
+React: Kullanıcı arayüzü bileşenlerini oluşturmak ve yönetmek için popüler bir JavaScript kütüphanesi.
+React Router: Tek sayfa uygulaması yapısı için kullanılan, sayfa yönlendirmeleri ve gezinme işlemlerini kolaylaştıran bir React kütüphanesi.
+Axios: Web sitesi ile sunucu arasında HTTP istekleri göndermek ve almak için kullanılan popüler bir JavaScript kütüphanesi.
+Bootstrap: Hızlı ve duyarlı tasarım için kullanılan popüler CSS ve JavaScript kütüphanesi. Bootstrap, UI bileşenleri ve stil şablonları sağlar.
